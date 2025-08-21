@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      width: 100%;
+      padding: 15px;
+      text-align: center;
+      background: #222;
+      color: #fff;
+      font-size: 20px;
+    }
+    .pdf-container {
+      width: 100%;
+      max-width: 900px;
+      height: 90vh;
+      margin-top: 10px;
+      border: none;
+    }
+    a.download-btn {
+      margin: 15px;
+      padding: 10px 20px;
+      background: #0073e6;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    a.download-btn:hover {
+      background: #005bb5;
+    }
+  </style>
+</head>
+<body>
+  <header>My Resume</header>
+
+  <!-- Show the PDF inside the page -->
+  <iframe class="pdf-container" src="Kirubakaran_N.pdf"></iframe>
+
+  <!-- Download button -->
+  <a href="Kirubakaran_N.pdf" class="download-btn" download>📥 Download Resume</a>
+</body>
+</html>
